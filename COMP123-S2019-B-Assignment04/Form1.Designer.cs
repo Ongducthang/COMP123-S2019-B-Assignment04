@@ -170,6 +170,7 @@
             this.tableLayoutPanel1.SetColumnSpan(this.textBoxBMIResult, 2);
             this.textBoxBMIResult.Location = new System.Drawing.Point(3, 278);
             this.textBoxBMIResult.Name = "textBoxBMIResult";
+            this.textBoxBMIResult.ReadOnly = true;
             this.textBoxBMIResult.Size = new System.Drawing.Size(288, 53);
             this.textBoxBMIResult.TabIndex = 9;
             this.textBoxBMIResult.TextChanged += new System.EventHandler(this.TextBoxBMIResult_TextChanged);
